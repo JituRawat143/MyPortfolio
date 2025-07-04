@@ -37,13 +37,9 @@ import schoolLogo from './assets/education_logo/schoolLogo.jpeg';
 
 
 // Project Section Logo's
-import githubdetLogo from './assets/work_logo/github_det.png';
-import csprepLogo from './assets/work_logo/cs_prep.png';
-import movierecLogo from './assets/work_logo/movie_rec.png';
-import taskremLogo from './assets/work_logo/task_rem.png';
-import npmLogo from './assets/work_logo/npm.png';
-import webverLogo from './assets/work_logo/web_dig.png';
-import cmLogo from './assets/work_logo/cm.png';
+import quiz from './assets/work_logo/quiz.png';
+import authenticationcrud from './assets/work_logo/authenticationcrud.png';
+import gmda from './assets/work_logo/gmda.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
 
@@ -171,18 +167,18 @@ export const SkillsInfo = [
       id: 0,
       title: "GMDA ERP",
       description:
-        "The GMDA ERP is a centralized web platform developed for the Gurugram Metropolitan Development Authority to digitize internal processes like employee management, document tracking, and departmental coordination. It offers role-based access, responsive forms, real-time API integration, and complete CRUD functionality, helping reduce manual work and improve operational efficiency.",
-      image: githubdetLogo,
+        "GMDA ERP is a centralized platform for the Gurugram Metropolitan Development Authority that streamlines employee management, document tracking, and coordination. It includes responsive forms, API integration, and CRUD functionality to improve efficiency.",
+      image: gmda,
       tags: ["HTML", "CSS", "JavaScript", "React JS", "API", "Redux", "Material UI", "Bootstrap"],
       github: "https://github.com/JituRawat143/GMDA_ERP_MAIN.git",
       webapp: "https://gmda-erp-main.vercel.app/",
     },
     {
       id: 1,
-      title: " Data entry with Authentication",
+      title: " Employee Management with Authentication",
       description:
         "A frontend project built with React, featuring a simple login system using local credentials and localStorage-based authentication. After login, users can add, edit, view, and delete records through a responsive data table powered by Axios and JSON Server.",
-      image: csprepLogo,
+      image: authenticationcrud,
       tags: ["HTML", "CSS", "JavaScript"],
       github: "https://github.com/JituRawat143/CrudwithAuthentication.git",
       webapp: "https://crudwith-authentication.vercel.app/",
@@ -191,7 +187,7 @@ export const SkillsInfo = [
       id: 2,
       title: "Education-Quiz-Web",
       description:"A simple and responsive quiz web app built with HTML, CSS, and JavaScript. It features a start screen, multiple-choice questions, score tracking, and options to retake or exit the quiz.",
-      image: movierecLogo,
+      image: quiz,
       tags: ["HTML", "CSS", "JavaScript"],
       github: "https://github.com/JituRawat143/Education-Quiz-Web.git",
       webapp: "https://education-quiz-14oshdn8x-jiturawat143s-projects.vercel.app/",
